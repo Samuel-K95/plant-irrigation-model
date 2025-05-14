@@ -1,6 +1,6 @@
 import requests
 
-url = "http://localhost:8000/predict"  # Change if hosted elsewhere
+url = "https://plant-irrigation-model.vercel.app/predict"  # Change if hosted elsewhere
 
 payload = {
     "features": {
