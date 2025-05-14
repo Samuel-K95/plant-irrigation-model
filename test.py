@@ -1,13 +1,13 @@
 import requests
 
-url = "https://plant-irrigation-model.vercel.app/predict"  # Change if hosted elsewhere
+url = "https://plant-irrigation-model.onrender.com/predict"  # Change if hosted elsewhere
 
 payload = {
     "features": {
         "Temperature": 27.0,           
         "Soil_Humidity": 60.0,         
         "Time": 14.0,                  
-        "Soil_Moisture": 1000,         
+        "Soil_Moisture": 0,         
         "rainfall": 0.5,               
         "Air_temperature_C": 26.5,     
         "Wind_speed_Kmh": 5.0,         
