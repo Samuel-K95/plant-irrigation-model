@@ -3,7 +3,7 @@ import os
 from sklearn.base import BaseEstimator
 from typing import Optional
 
-MODEL_PATH = "model/cat_model.pkl"
+MODEL_PATH = "model/lgbm_model.pkl"
 
 model: Optional[BaseEstimator] = None
 
